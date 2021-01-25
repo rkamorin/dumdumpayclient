@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumDumPayClient.Example", "DumDumPayClient.Example\DumDumPayClient.Example.csproj", "{E631022C-54A7-4AF2-996A-E5CA0222B110}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DumDumPayClient.Example", "DumDumPayClient.Example\DumDumPayClient.Example.csproj", "{E631022C-54A7-4AF2-996A-E5CA0222B110}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumDumPayClient.Api.Implementation", "DumDumPayClient.Api.Implementation\DumDumPayClient.Api.Implementation.csproj", "{061024C2-9D55-4B9B-BE12-7B7451B8DFA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DumDumPayClient.Api.Implementation", "DumDumPayClient.Api.Implementation\DumDumPayClient.Api.Implementation.csproj", "{061024C2-9D55-4B9B-BE12-7B7451B8DFA9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DumDumPayClient.Api.Contracts", "DumDumPayClient.Api.Contracts\DumDumPayClient.Api.Contracts.csproj", "{F475A5EA-A14C-4F00-A6B6-CED09527CB4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DumDumPayClient.Api.Contracts", "DumDumPayClient.Api.Contracts\DumDumPayClient.Api.Contracts.csproj", "{F475A5EA-A14C-4F00-A6B6-CED09527CB4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

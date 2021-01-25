@@ -54,11 +54,12 @@ namespace DumDumPayClient.Example.Controllers
             try
             {
                 var response = await _paymentApiClient.CreatePaymentAsync(paymentRequest);
-
+                 
+                var termUrl = Url.Action("Confirm", "Payment", new { transactionId = response.TransactionId }, HttpContext.Request.Scheme);
                 var paymentRedirectModel = new PaymentRedirectModel
                 {
                     PaReq = response.PaReq,
-                    TermUrl = Url.ActionLink("confirm") + $"/{response.TransactionId}",
+                    TermUrl = termUrl,
                     MD = "Order-1",
                     Method = response.Method,
                     Url = "https://dumdumpay.site/secure" // why it returns "http://dummypay.host/secure?
